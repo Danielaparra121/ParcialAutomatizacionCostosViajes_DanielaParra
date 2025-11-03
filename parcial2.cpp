@@ -94,7 +94,7 @@ int main() {
                 Mayor = i;
             }
         }
-
+        //resultado de mayor
         cout << "--------------------------------------------------------------" << endl;
         cout << "El conductor con mayor ingreso es: " << name[Mayor]
             << " con $" << totalGanado[Mayor] << endl;
