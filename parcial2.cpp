@@ -83,7 +83,7 @@ int main() {
             << setw(20) << "Total Ganado ($)"
             << setw(25) << "Promedio Distancia (km)" << endl;
         cout << "--------------------------------------------------------------" << endl;
-
+        //proceso para encontrar el de mayor ingreso 
         int Mayor = 0;
         for (int i = 0; i < canconductor; i++) {
             cout << left << setw(15) << name[i]
